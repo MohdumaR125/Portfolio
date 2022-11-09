@@ -1,0 +1,83 @@
+.navbar{
+    background-color: #aaa;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.links{
+    margin: 0px 20px ;
+}
+.hello{
+    display: flex;
+    margin-left: 150px;
+}
+.helloimg{
+    margin-top: 10px;
+}
+.animation{
+    margin-top: 10px;
+}
+.name{
+    display: block;
+}
+
+.soc{
+  margin-top: 20px;
+  display : block;
+  list-style: none;
+  text-align: cente;
+}
+.soc>a:nth-child(3)>svg{
+    width:50%
+}
+.soc>a:nth-child(4)>svg{
+width: 50%;
+}
+
+li
+{
+    display: inline-block
+}
+a, svg
+{    
+    display: block;
+    
+}
+  a
+{
+
+    display: inline-block;
+    position: relative;
+    height: 60px; 
+    width: 60px ;
+    
+}
+svg
+{ 
+height: 55%;
+width: 55%
+
+}
+.icon{
+    width: 50px;
+}
+
+.avatar{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: all 1s ease-out;
+}
+.avatar:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+.home{
+    display: flex;
+    padding:100px;
+    justify-content: space-between;
+}
+.home>div{
+    width: 500px;
+}
