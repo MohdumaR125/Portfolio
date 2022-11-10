@@ -51,12 +51,21 @@ a, svg
     position: relative;
     height: 60px; 
     width: 60px ;
-    
+    border-radius: 50%;
+    color: white;   
 }
-svg
+.soc>a{
+    margin-left: 10px;
+    background-color: rgb(195, 184, 43);
+}
+.soc svg
 { 
+
+    margin-top: 12px;
+    margin-left: 13px;
 height: 55%;
-width: 55%
+width: 55%;
+
 
 }
 .icon{
@@ -77,7 +86,62 @@ width: 55%
     display: flex;
     padding:100px;
     justify-content: space-between;
+    background-color: #224a54;
+    color: whitesmoke;
 }
 .home>div{
     width: 500px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 97%;
+    padding-right: 50px;
+    background-color: black;
+    color: rgb(125, 228, 239);
+}
+
+.about>div:last-child{
+text-align: justify;
+margin-top: 100px;
+font-size: 22px
+}
+.about>div:last-child>ul:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    color: rgb(13, 182, 244);
+
+}
+.about>div:last-child>ul{
+    transition: all 0.5s ease-out;
+}
+.skillparent{
+    background-color: rgb(25, 26, 39);
+    margin-top: -22px;
+    color: white;
+}
+
+.skills{
+    display: grid;
+    padding: 100px;
+    grid-template-columns: repeat(6,1fr);
+    gap:50px;
+
+}
+.skills>div{
+    height: 180px;
+    width: 135px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(51, 59, 75);;
+}
+.skills img{
+    margin-top: 18px;
+    width: 80%;
+    
+}
+.skills p{
+    font-size: larger;
+    font-weight: 400;
+    color: white;
 }
