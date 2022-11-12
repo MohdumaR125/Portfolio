@@ -7,14 +7,8 @@ function Home() {
     <div className={Styles.home}>
       <div className={Styles.block}>
         <div className={Styles.hello}>
-          <h3>Hello</h3>
-          <img
-            width="40px"
-            height="40px"
-            className={Styles.helloimg}
-            src="https://media.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif"
-            alt=""
-          />
+          <h3>Hello World!</h3>
+        
           <h3>My name is</h3>
           <br />
         </div>

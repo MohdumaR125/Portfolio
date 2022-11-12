@@ -12,6 +12,10 @@
     display: flex;
     margin-left: 150px;
 }
+.hello>h3:first-child{
+    margin-left: -18px;
+    margin-right: 5px;
+}
 .helloimg{
     margin-top: 10px;
 }
@@ -56,7 +60,7 @@ a, svg
 }
 .soc>a{
     margin-left: 10px;
-    background-color: rgb(195, 184, 43);
+    background-color: rgb(100, 255, 218);
 }
 .soc svg
 { 
@@ -65,7 +69,6 @@ a, svg
     margin-left: 13px;
 height: 55%;
 width: 55%;
-
 
 }
 .icon{
@@ -86,8 +89,10 @@ width: 55%;
     display: flex;
     padding:100px;
     justify-content: space-between;
-    background-color: #224a54;
-    color: whitesmoke;
+    background-color: rgb(10, 25, 47);;
+    color: rgb(100, 255, 218);;
+    height: 500px;
+    letter-spacing: 1px;
 }
 .home>div{
     width: 500px;
@@ -96,6 +101,7 @@ width: 55%;
     display: flex;
     justify-content: space-around;
     width: 97%;
+    min-height: 800px;
     padding-right: 50px;
     background-color: black;
     color: rgb(125, 228, 239);
@@ -144,4 +150,117 @@ font-size: 22px
     font-size: larger;
     font-weight: 400;
     color: white;
+}
+.projects{
+    background-color: rgb(10, 25, 47);
+    color: rgb(204, 214, 246);
+    margin: 0;
+}
+.projects>div{
+    display: block;
+    padding: 100px 190px;
+    display: flex;
+    
+}
+.projects>div>div:first-child>img{
+    width: 600px;
+    height: 350px;
+    background-color: rgb(100, 255, 218);
+    border-radius: 4px;
+    backdrop-filter: blur(6px);
+
+}
+.projects h1{
+    color: rgb(204, 214, 246);
+    transition: all 1s ease-in-out;
+}.projects h1:hover{
+    color:rgb(100, 255, 218);
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+}
+.para{
+    display: block;
+    margin-left: -80px;
+    background-color: rgb(23, 42, 69);
+    max-height: 130px;
+    padding: 25px;
+    line-height: 30px;
+    z-index: 10;
+    opacity: 100%;
+}
+.projects>div>div:last-child{
+    display: block;
+    text-align: right;
+    width: 500px;
+}
+.li>li{
+    color: rgb(100, 255, 218);
+    padding: 10px;
+}
+.jioimg{
+    background: url("../download/jiomart.png");
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+.jioimg:hover{
+    transform: scale(1.1);
+    z-index: 0;
+    transition: all 1s ease-in;
+}
+
+.layer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+    transition: all 1s ease-out;
+    cursor: pointer;
+    
+}
+.layer:hover{
+    opacity: 0%;
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+.swiggyimg{
+    background: url("../download/swiggy.png");
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+.swiggyimg:hover{
+    transform: scale(1.1);
+    z-index: 0;
+    transition: all 1s ease-in;
+}
+.myntraimg{
+    background: url("../download/myntra.png");
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+.myntraimg:hover{
+    transform: scale(1.1);
+    z-index: 0;
+    transition: all 1s ease-in;
+}
+.prosvg path{
+    
+    color: rgb(136, 146, 176);
+    fill: currentColor;
+}
+.prosvg svg{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.contact{
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    margin-top: 0;
 }

@@ -10,7 +10,7 @@ return(
         <NavLink className={Styles.links} to="/about">ABOUT</NavLink>
         <NavLink className={Styles.links} to="/contact">CONTACT</NavLink>
         <NavLink className={Styles.links} to="/skills">SKILLS</NavLink>
-        <NavLink className={Styles.links} to="/projects">PROJECTS</NavLink>
+        <NavLink className={Styles.links} to="/project">PROJECTS</NavLink>
         <NavLink className={Styles.links} to="/resume">RESUME</NavLink>
         </div>
         
