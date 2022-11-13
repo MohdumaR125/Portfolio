@@ -1,13 +1,23 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import AllRoutes from './Components/AllRoutes';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Skills from './Pages/Skills';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
     <div className="App">
      <Navbar/>
-     <AllRoutes/>
+     <Home/>
+     <About/>
+     <Skills/>
+     <Projects/>
+     <Contact/>
+     <Footer/>
     </div>
   );
 }

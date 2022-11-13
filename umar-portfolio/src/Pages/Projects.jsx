@@ -5,7 +5,8 @@ import Styles from "../Components/Styles.module.css"
 
 const Projects = () => {
   return (
-    <div className={Styles.projects}>
+    <div id="project" className={Styles.projects}>
+      <h1>PROJECTS</h1>
       <div>
         <div className={Styles.jioimg}>
           <div className={Styles.layer}></div>

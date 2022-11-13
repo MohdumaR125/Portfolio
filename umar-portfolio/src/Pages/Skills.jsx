@@ -14,7 +14,7 @@ import npm from "../download/npm.svg"
 const Skills = () => {
 
     return (
-        <div className={Styles.skillparent}>
+        <div id="skills" className={Styles.skillparent}>
             <h1>My Technical Skills</h1>
             <div className={Styles.skills}>
             <div>
