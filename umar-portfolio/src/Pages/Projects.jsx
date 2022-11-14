@@ -43,7 +43,7 @@ const Projects = () => {
               </svg>
             </a>
             <a
-              href="https://comfy-souffle-7dba03.netlify.app/"
+              href="https://jiomaartcopy.netlify.app"
               target="_blank"
               rel="nofollow noopener noreferrer"
               aria-label="External Link"
