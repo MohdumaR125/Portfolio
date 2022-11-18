@@ -21,7 +21,7 @@ function Home() {
             wrapper="div"
             cursor={true}
             repeat={Infinity}
-            style={{ fontSize: "2em" }}
+            
           />
         </div>
 

@@ -1,8 +1,8 @@
 import Styles from "../Components/Styles.module.css"
-
 const Contact = () =>{
  return(
-    <div id="contact" className={Styles.contact}>
+    <div id="contact" className={Styles.contactparent}>
+      <div  className={Styles.contact}>
       <h1>Get In Touch</h1>
       <p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant job updates.</p>
       <div>
@@ -51,7 +51,8 @@ const Contact = () =>{
           </a>
         </div>
       </div>
-      
+  
+    </div>
     </div>
  )
 }

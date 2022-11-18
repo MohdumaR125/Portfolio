@@ -6,7 +6,9 @@ const About = ()=>{
 
     
     return(
+        
          <div id="about" className={Styles.aboutparent}>
+            
                <h1>About Me</h1>
         <div  className={Styles.about}>
             <div><img src={code} alt="" /></div>

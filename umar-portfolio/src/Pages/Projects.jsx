@@ -1,11 +1,10 @@
-import jiomart from "../download/jiomart.png";
-import myntra from "../download/myntra.png";
-import swiggy from "../download/swiggy.png";
+
 import Styles from "../Components/Styles.module.css"
 
 const Projects = () => {
   return (
-    <div id="project" className={Styles.projects}>
+    <div className={Styles.projectparent}>
+      <div id="project" className={Styles.projects}>
       <h1>PROJECTS</h1>
       <div>
         <div className={Styles.jioimg}>
@@ -174,6 +173,7 @@ const Projects = () => {
           </div>
         </div>
         </div>
+    </div>
   );
 };
 export default Projects;

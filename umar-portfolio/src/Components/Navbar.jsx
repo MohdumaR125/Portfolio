@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
           <div className={Styles.button}>
             
-              <a href={MOHD_UMAR_Resume} download="resume_umar">Resume</a>
+              <a href="https://drive.google.com/file/d/1xc3mddOwii-zT0MYBuGmS4VlcTJbLLbJ/view?usp=sharing" target="_blank">Resume</a>
               
             
           </div>
