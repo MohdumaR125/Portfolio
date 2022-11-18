@@ -20,6 +20,11 @@ background-color: rgb(10, 25, 47);
 }
 .navbar>div:first-child{
     font-size: larger;
+    color: rgb(100, 255, 218);
+    
+}
+.navbar>div:first-child::first-letter{
+    font-size: 28px;
 }
 .buttonParent{
     display: flex;
@@ -202,8 +207,8 @@ width: 60%;
 
 .about>div:last-child{
 text-align: justify;
-margin-top: 100px;
-font-size: 22px;
+margin-top: 50px;
+font-size: 20px;
 transition: all 0.75s ease-in-out;
 cursor: pointer;
 }
@@ -215,6 +220,10 @@ cursor: pointer;
 }
 .about>div:last-child>ul{
     transition: all 0.5s ease-out;
+}
+.about img{
+    width: 600px;
+    height: 500px;
 }
 .skillparent{
     margin: 100px;
@@ -437,6 +446,43 @@ cursor: pointer;
   }
 
   @media screen and (min-width: 840px) and (max-width: 1180px) {
+    .navbar>div{
+    padding-right: 20px;
+    }
+    .about>div:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .aboutparent{
+        margin: 10px;
+    }
+    .about img{
+        width: 450px;
+        height: 330px;
+    }
+    .contactparent{
+        margin: 50px;
+    
+    }
+    .hello{
+        margin-left: 100px;
+    }
+    .home{
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        padding-top: 150px;
+    }
+    .projects>div{
+
+        padding: 80px 85px;
+    }
+    .para{
+        overflow: hidden;
+    }
 
     .skillparent{
         margin: 50px;
@@ -450,10 +496,41 @@ cursor: pointer;
         width: 110px;
         height: 160px;
     }
+    .footer{
+        margin-left: 40px;
+
+    }
   }
 
 
 @media screen and (min-width: 720px) and (max-width: 840px) { 
+    .about>div:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .about{
+        padding: 0px;
+    }
+    .aboutparent{
+        margin: 0px;
+    }
+    .about img{
+        width: 300px;
+        height: 200px;
+    }
+    .contactparent{ 
+        margin: 40px;
+    }
+    .projects>div{
+
+        padding: 50px 35px;
+        font-size: smaller;
+        
+    }
+    .para{
+        overflow: hidden;
+    }
+    
     .navbar{
         justify-content: space-evenly;
         font-size: medium;
@@ -475,7 +552,11 @@ cursor: pointer;
         grid-template-rows: repeat(2,1fr);
         padding: 50px;
         padding-top: 150px;
-        font-size: medium;
+        font-size: large;
+        margin: auto;
+    }
+    .home>div{
+        padding:0px 50px;
     }
 
     .skillparent{
@@ -489,11 +570,59 @@ cursor: pointer;
         width: 110px;
         height: 160px;
     }
+    .footer{
+        margin-left: 10px;
+
+    }
 
 }
 
 @media screen and (min-width: 480px) and (max-width: 720px) {
-    
+    .navbar{
+        justify-content: space-evenly;
+        font-size: medium;
+        
+    }
+    .navbar>div:first-child{
+        margin-left: 10px;
+    }
+    .buttonParent>a{
+        margin: 0;
+    }
+    .about>div:last-child{
+        margin-top: 5px;
+        font-size: 14px;
+        text-align:justify;
+    }
+    .about{
+        padding: 0px;
+        display: block;
+    }
+    .aboutparent{
+        margin: 0px;
+    }
+    .about img{
+        width: 250px;
+        height: 150px;
+    }
+    .contactparent{ 
+        margin: 20px;
+    }
+    .contact>p{
+        width: 400px;
+    }
+    .projects>div{
+
+        padding: 30px 10px;
+        font-size: smaller;
+        
+    }
+    .projectparent{
+        margin:20px;
+    }
+    .para{
+        overflow: hidden;
+    }
     .navbar{
         justify-content: space-evenly;
         font-size: small;
@@ -561,9 +690,82 @@ cursor: pointer;
         width: 100px;
         height: 150px;
     }
+    .footer{
+        margin-left: 10px;
+
+    }
 }
 
 @media screen and (max-width: 480px){
+    .buttonParent>a{
+        margin: 0;
+        padding-top: 10px;
+        font-size: 10px;
+        width: 50px;
+    }
+    .buttonParent>div{
+        margin-top: 4px;
+    }
+    .button{
+
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .navbar{
+        margin: 0%;
+        padding: 0%;
+    }
+    .navbar>div:first-child{
+        margin-top: 5px;
+    }
+    .about>div:last-child{
+        margin-top: 5px;
+        font-size: 14px;
+        text-align:justify;
+    }
+    .about{
+        padding: 0px;
+        display: block;
+    }
+    .aboutparent{
+        margin: 0px;
+    }
+    .about img{
+        width: 250px;
+        height: 150px;
+    }
+    .contactparent{ 
+        margin: 20px;
+    }
+    .footer{
+        margin-left: 10px;
+        font-size: small;
+
+    }
+    .contact>p{
+        width: 200px;
+        font-size: small;
+        margin: auto;
+    }
+    .projects>div{
+
+        padding: 30px 10px;
+        font-size: smaller;
+        
+    }
+    .projects>div>div:first-child{
+        width: 400px;
+        height: 250px;
+    }
+    .projectparent{
+        margin:10px;
+    }
+    .para{
+        overflow: hidden;
+        width: 180px;
+        margin-left: -50px;
+        height: 100px;
+    }
     .navbar{
         justify-content: space-evenly;
         font-size: small;
@@ -593,7 +795,7 @@ cursor: pointer;
     .home{
         display: grid;
         grid-template-rows: repeat(2,1fr);
-        padding: 50px;
+        padding: 20px;
         padding-top: 150px;
     }
     .home>div{
@@ -623,7 +825,11 @@ cursor: pointer;
         padding-left: 28px;
     }
     .skillparent{
-        margin: 50px;
+        margin: 30px;
+        text-align: center;
+    }
+    .skillparent>h1{
+        margin-left: -30px;
     }
     .skills{
         grid-template-columns: repeat(2,1fr);

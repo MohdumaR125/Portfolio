@@ -17,7 +17,7 @@ function Home() {
             </div>
         <div className={Styles.animation}>
           <TypeAnimation
-            sequence={["I am a Full Stack Developer", 1000, ""]}
+            sequence={["I am a Full Stack Developer",1000,"",300, "I am a MERN Stack Developer",1000,"",300,"I Love Coding",1000,"",300]}
             wrapper="div"
             cursor={true}
             repeat={Infinity}
