@@ -471,6 +471,7 @@ cursor: pointer;
         margin-left: 100px;
     }
     .home{
+        width: 100%;
         justify-content: center;
         text-align: center;
         padding: 50px;
@@ -512,7 +513,7 @@ cursor: pointer;
         padding: 0px;
     }
     .aboutparent{
-        margin: 0px;
+        margin: 35px;
     }
     .about img{
         width: 300px;
@@ -724,11 +725,12 @@ cursor: pointer;
         text-align:justify;
     }
     .about{
-        padding: 0px;
+
         display: block;
+        width: 100%;
     }
     .aboutparent{
-        margin: 0px;
+        margin: 10px;
     }
     .about img{
         width: 250px;
@@ -746,6 +748,9 @@ cursor: pointer;
         width: 200px;
         font-size: small;
         margin: auto;
+    }
+    .projects{
+        margin: 18px;
     }
     .projects>div{
 
@@ -794,6 +799,7 @@ cursor: pointer;
     }
     .home{
         display: grid;
+        margin-left: 13px;
         grid-template-rows: repeat(2,1fr);
         padding: 20px;
         padding-top: 150px;
@@ -825,13 +831,14 @@ cursor: pointer;
         padding-left: 28px;
     }
     .skillparent{
-        margin: 30px;
+        margin: 50px;
         text-align: center;
     }
     .skillparent>h1{
         margin-left: -30px;
     }
     .skills{
+        margin: 10px;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
     }
